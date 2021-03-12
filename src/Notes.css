@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 400px;
+    /* height: 400px; */
+    margin-top: 40px;
+}
+h1{
+    margin-left: 90px;
+}
+.title{
+   margin: 10px 0px 0px 40px;
+   height: 30px;
+   width: 300px;
+   background-color: whitesmoke;
+}
+.description{
+    margin: 30px 0px 0px 40px;
+    width: 300px;
+    height: 130px;
+    background-color: whitesmoke;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    margin: 30px 0px 30px 140px;
+}
+
+@media only screen and (max-width: 678px){
+    .title{
+        margin-left: 15px;
+    }
+    .description{
+        margin-left: 15px;
+    }
+    .button{
+        margin-left: 85px;
+    }
+}
