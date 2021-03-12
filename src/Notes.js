@@ -16,19 +16,6 @@ const Notes = () => {
     setStoreDesciption(e.target.value);
   };
 
-  const addNewTask = () => {
-    addTitle.push(item);
-    setAddTitle([...addTitle]);
-    setItem("");
-    addDescription.push(storeDescription);
-    setAddDescription([...addDescription]);
-    setStoreDesciption("");
-
-    task.push(addTitle);
-    task.push(addDescription);
-    setTask([...task]);
-  };
-
   return (
     <>
       <div className="container">
