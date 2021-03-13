@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Notes from "./Notes.js";
+import Task from "./Task.js";
 
 const App = () => {
   return (
     <>
-      <Notes />
+      <Task />
     </>
   );
 };
